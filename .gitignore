@@ -1,3 +1,18 @@
+# My project: Data files, shell scripts and images, etc
+*.sh
+*.dat
+*.csv
+*.png
+*.xml
+*.iml
+*.pdf
+*.doc
+*.docx
+*.rtf
+*.xls
+*.xlsx
+.idea/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +142,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Pasta recursos
+.recursos/
+recursos/
