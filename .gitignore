@@ -2,10 +2,8 @@
 *.sh
 *.dat
 *.csv
-*.png
 *.xml
 *.iml
-*.pdf
 *.doc
 *.docx
 *.rtf
@@ -143,6 +141,3 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Pasta recursos
-.recursos/
-recursos/
