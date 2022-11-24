@@ -107,7 +107,7 @@ python interface_prog.py
 ```
 <br>
 
-![](./print_interface.png)
+![](docs/print_interface.png)
 
 Nesta, a escolha da opção **'1 - Cadastrar Editais'** e em seguida as opções **'4 - Pré-Processar'** e **'5 - Construir Dataset'** é equivalente à rodar o script *'gerar_dataset_anotacao.py'* (descrito no passo [2.2](#22---processar-editais)), porém fornecendo os parâmetros interativamente.
 
