@@ -3,6 +3,10 @@ from gensim.models import KeyedVectors
 
 if __name__ == '__main__':
     embeddings = {
+        'cbow_s300': {
+            'embeddings_txt_file': 'data/Embeddings/pt/cbow_s300.txt',
+            'embeddings_bin_file': 'data/Embeddings/pt/cbow_s300.gensim'
+        },
         'skip_s300': {
             'embeddings_txt_file': 'data/Embeddings/pt/skip_s300.txt',
             'embeddings_bin_file': 'data/Embeddings/pt/skip_s300.gensim'
