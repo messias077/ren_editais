@@ -46,34 +46,31 @@ if __name__ == '__main__':
     is_use_crf = True
     data_folder = None
 
-    # Initializing specific values based on model_name
-    model_name = params['model_name'].lower()
+    # Initializing specific values based on embeddings param
+    embeddings = params['embeddings'].lower()
 
-    if model_name == 'bert_base':
-        is_use_bert_base = True
-    elif model_name == 'bert_large':
-        is_use_bert_large = True
-    elif model_name == 'glove':
+    if 'glove' in embeddings:
         is_use_glove = True
-    elif model_name == 'glove_bert_base':
-        is_use_glove = True
-        is_use_bert_base = True
-    elif model_name == 'glove_bert_large':
-        is_use_glove = True
-        is_use_bert_large = True
-    elif model_name == 'w2vskip':
-        is_use_w2v_skip = True
-    elif model_name == 'w2vskip_bert_base':
-        is_use_w2v_skip = True
-        is_use_bert_base = True
-    elif model_name == 'w2vskip_bert_large':
-        is_use_w2v_skip = True
-        is_use_bert_large = True
-    else:
-        print("\nInvalid option for 'model_name'. Please, type 'python run_flair_experiments_editais.py -h' for help.")
-        exit(1)
 
-    print(f"\n\n==> Running: '{params['model_name']}'...\n\n")
+    if 'w2v_skip' in embeddings:
+        is_use_w2v_skip = True
+
+    if 'w2v_cbow' in embeddings:
+        is_use_w2v_cbow = True
+
+    if 'flair' in embeddings:
+        is_use_flair = True
+
+    if 'elmo' in embeddings:
+        is_use_elmo = True
+
+    if 'bert_base' in embeddings:
+        is_use_bert_base = True
+
+    if 'bert_large' in embeddings:
+        is_use_bert_large = True
+
+    print(f"\n\n==> Running: '{params['embeddings']}'...\n\n")
     time.sleep(10)
 
     if is_use_bert_base or is_use_bert_large:
