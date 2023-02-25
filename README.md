@@ -9,6 +9,7 @@ Repositório do artigo publicado: [*"Combining Word Embeddings for Portuguese Na
 
 
 > Leia a [dissertação](https://messias077.github.io/ren_editais/dissertacao.pdf) para entender o contexto em que o protótipo foi utilizado.<br>
+> Link para a [dissertação](https://repositorio.ifes.edu.br/handle/123456789/2944) disponibilizada no repositório do IFES.<br>
 > Acesse a [documentação do protótipo](https://messias077.github.io/ren_editais/) para detalhes sobre a implementação!<br>
 > Código testado no Linux com [Python 3.10.4](https://www.python.org/downloads/release/python-3104/) (Release Date: Apr 2, 2022).<br> 
 > Código testado no Windows com [Python 3.10.5](https://www.python.org/downloads/release/python-3105/) (Release Date: June 6, 2022).<br> 
@@ -148,7 +149,7 @@ python generate_embedding_binary.py
 ```
 
 ### 3.3 - Reprodução dos experimentos
-A figura abaixo representa um recorte da **'Tabela 11'**, que está disponível na [dissertação](https://messias077.github.io/ren_editais/dissertacao.pdf), onde são mostrados os resultados (Medida-F) dos experimentos realizados com base no *corpora* construído (['data/corpora/editais/regiao'](data/corpora/editais/regiao)).
+A figura abaixo representa um recorte da **'Tabela 9'**, que está disponível na [dissertação](https://messias077.github.io/ren_editais/dissertacao.pdf), onde são mostrados os resultados (Medida-F) dos experimentos realizados com base no *corpora* construído (['data/corpora/editais/regiao'](data/corpora/editais/regiao)).
 
 ![](docs/tabela11.png)
 
